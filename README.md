@@ -1,4 +1,4 @@
-# Cosmo-cuisimport React, { useState } from "react"; import { Button } from "@/components/ui/button"; import { Card, CardContent } from "@/components/ui/card"; import { Phone, MapPin, Instagram } from "lucide-react"; import { initializeApp } from "firebase/app"; import { getFirestore, collection, addDoc } from "firebase/firestore";
+# Cosmo-cuiimport React, { useState } from "react"; import { Button } from "@/components/ui/button"; import { Card, CardContent } from "@/components/ui/card"; import { Phone, MapPin, Instagram } from "lucide-react"; import { initializeApp } from "firebase/app"; import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 // Firebase config (Replace with your actual config) const firebaseConfig = { apiKey: "YOUR_API_KEY", authDomain: "YOUR_AUTH_DOMAIN", projectId: "YOUR_PROJECT_ID", storageBucket: "YOUR_STORAGE_BUCKET", messagingSenderId: "YOUR_SENDER_ID", appId: "YOUR_APP_ID" };
 
@@ -100,4 +100,6 @@ return ( <div className="min-h-screen bg-white text-gray-800"> {/* Hero Section 
 </div>
 
 ); }
+
+
 
